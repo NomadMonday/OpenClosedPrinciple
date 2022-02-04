@@ -1,11 +1,12 @@
 from accounts import create_account
 from employee_model import EmployeeModel
+from manager_model import ManagerModel
 from person_model import PersonModel
 
 def main():
     applicants = [
         PersonModel("Tim", "Corey"),
-        PersonModel("Sue", "Storm"),
+        ManagerModel("Sue", "Storm"),
         PersonModel("Nancy", "Roman")
     ]
 
