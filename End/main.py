@@ -1,5 +1,6 @@
 from accounts import create_account
 from employee_model import EmployeeModel
+from executive_model import ExecutiveModel
 from manager_model import ManagerModel
 from person_model import PersonModel
 
@@ -7,7 +8,7 @@ def main():
     applicants = [
         PersonModel("Tim", "Corey"),
         ManagerModel("Sue", "Storm"),
-        PersonModel("Nancy", "Roman")
+        ExecutiveModel("Nancy", "Roman")
     ]
 
     employees = [applicant.create_account() for applicant in applicants]
