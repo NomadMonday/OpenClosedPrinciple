@@ -1,5 +1,5 @@
 from employee_model import EmployeeModel
-from abc_applicant_model import ApplicantModel
+from applicants.abc_applicant_model import ApplicantModel
 
 def create_executive_account(person: ApplicantModel):
     output = EmployeeModel()

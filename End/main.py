@@ -1,8 +1,7 @@
-from accounts import create_account
 from employee_model import EmployeeModel
-from executive_model import ExecutiveModel
-from manager_model import ManagerModel
-from person_model import PersonModel
+from applicants.executive_model import ExecutiveModel
+from applicants.manager_model import ManagerModel
+from applicants.person_model import PersonModel
 
 def main():
     applicants = [

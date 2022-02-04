@@ -1,7 +1,7 @@
 from employee_model import EmployeeModel
-from abc_applicant_model import ApplicantModel
+from applicants.abc_applicant_model import ApplicantModel
 
-def create_account(person: ApplicantModel):
+def create_staff_account(person: ApplicantModel):
     output = EmployeeModel()
     output.first_name = person.first_name
     output.last_name = person.last_name
