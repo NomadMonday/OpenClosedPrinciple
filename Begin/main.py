@@ -12,7 +12,7 @@ def main():
     employees = [create_account(applicant) for applicant in applicants]
 
     for employee in employees:
-        print(f"{employee.FirstName} {employee.LastName}: {employee.EmailAddress} IsManager: {employee.IsManager} IsExecutive: {employee.IsExecutive}")
+        print(f"{employee.first_name} {employee.last_name}: {employee.email_address} IsManager: {employee.is_manager} IsExecutive: {employee.is_executive}")
     
     input()
 

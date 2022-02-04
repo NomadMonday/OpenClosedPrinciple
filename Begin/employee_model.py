@@ -1,7 +1,7 @@
 class EmployeeModel:
     def __init__(self):
-        self.FirstName = ""
-        self.LastName = ""
-        self.EmailAddress = ""
-        self.IsManager = False
-        self.IsExecutive = False
+        self.first_name = ""
+        self.last_name = ""
+        self.email_address = ""
+        self.is_manager = False
+        self.is_executive = False
